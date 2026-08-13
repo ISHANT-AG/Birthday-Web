@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Happy Birthday, Mumma! 🎂💗 | With Love from Swasti</title>
+  <meta name="description" content="A special birthday surprise website celebrating the world's best Mumma, filled with memories, love, wishes, and laughter." />
+  <meta property="og:title" content="Happy Birthday, Mumma! 🎂💗" />
+  <meta property="og:description" content="A warm, heartfelt surprise made just for the best Mumma in the world." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#FFB7B2" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Dancing+Script:wght@600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎂</text></svg>" />
+</head>
+<body>
+  <!-- Ambient Dynamic Floating Canvas Background -->
+  <canvas id="ambient-canvas" aria-hidden="true"></canvas>
+
+  <!-- Top Floating Controls -->
+  <aside class="floating-controls" aria-label="Page controls">
+    <button id="music-toggle-btn" class="control-btn" aria-label="Toggle background music" title="Toggle gentle birthday melody">
+      <span class="music-icon" id="music-icon">🎵</span>
+      <span class="music-label">Music</span>
+      <span class="sound-wave" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </span>
+    </button>
+  </aside>
+
+  <!-- Main Content Wrapper -->
+  <main id="main-content">
+    
+    <!-- 1. HERO / LANDING SECTION -->
+    <section id="hero" class="section hero-section" aria-label="Hero Introduction">
+      <div class="hero-glow hero-glow-1" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
+      
+      <div class="container hero-container">
+        <div class="hero-badge reveal-item" data-delay="100">
+          <span class="sparkle-icon">✨</span> A Birthday Surprise <span class="sparkle-icon">✨</span>
+        </div>
+
+        <h1 class="hero-title reveal-item" data-delay="250">
+          Happy Birthday, <span class="script-highlight">Mumma</span> 🎂💗
+        </h1>
+
+        <p class="hero-subtitle reveal-item" data-delay="400">
+          A little surprise made with all my love, just for you.
+        </p>
+
+        <div class="hero-gift-box reveal-item" data-delay="550">
+          <div class="gift-floating-wrap">
+            <span class="floating-emoji e1" aria-hidden="true">🎈</span>
+            <span class="floating-emoji e2" aria-hidden="true">✨</span>
+            <span class="floating-emoji e3" aria-hidden="true">🌸</span>
+            <span class="floating-emoji e4" aria-hidden="true">💖</span>
+            <span class="floating-emoji e5" aria-hidden="true">🎉</span>
+          </div>
+          
+          <button id="open-gift-btn" class="btn btn-primary btn-gift" aria-label="Open Birthday Gift">
+            <span class="btn-icon">🎁</span>
+            <span class="btn-text">Tap to Open My Gift</span>
+            <span class="btn-shimmer" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div class="scroll-hint reveal-item" data-delay="700">
+          <a href="#letter-section" class="scroll-link" aria-label="Scroll down to explore">
+            <span class="scroll-text">Scroll to explore</span>
+            <span class="scroll-arrow">↓</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. HEARTFELT MESSAGE SECTION -->
+    <section id="letter-section" class="section letter-section" aria-label="Heartfelt Letter for Mumma">
+      <div class="container letter-container">
+        
+        <div class="section-header text-center reveal-item">
+          <div class="section-badge">💌 From The Heart</div>
+          <h2 class="section-title">For the Best Mumma in the World <span class="title-icon">💌</span></h2>
+          <div class="gold-flourish" aria-hidden="true">~ ✦ 💗 ✦ ~</div>
+        </div>
+
+        <!-- Styled Letter Card -->
+        <article class="letter-card reveal-item" data-delay="200">
+          <div class="letter-ribbon" aria-hidden="true">
+            <span class="ribbon-bow">🎀</span>
+          </div>
+          
+          <div class="letter-stamp" aria-hidden="true">
+            <span class="stamp-icon">💐</span>
+            <span class="stamp-text">FOR MUMMA</span>
+          </div>
+
+          <div class="letter-quote-mark left-quote" aria-hidden="true">“</div>
+
+          <div class="letter-body">
+            <p class="letter-p p-lead reveal-text">
+              Happy Birthday to my favourite person (and also my personal alarm clock)! 🎂💗
+            </p>
+
+            <p class="letter-p reveal-text">
+              Mumma, I hope you know how lucky I feel to have you. You're the person who somehow manages to be my biggest supporter, my personal chef, my therapist, my reminder app, and sometimes… my biggest critic 😂
+            </p>
+
+            <p class="letter-p reveal-text">
+              Thank you for always being there, even when I'm being annoying, dramatic, or making questionable decisions. I know I don't always say it, but I really do appreciate everything you do for me.
+            </p>
+
+            <p class="letter-p reveal-text">
+              You deserve all the happiness, good food, shopping, travelling, and absolutely ZERO stress today. So please enjoy your day and pretend you didn't see all the things I forgot to do 😭😂
+            </p>
+
+            <p class="letter-p reveal-text">
+              I hope this year brings you lots of reasons to smile, lots of peaceful days, and enough money to buy everything you point at and say, <span class="quote-italic">"I don't need this."</span> Because we both know you probably do. 😭
+            </p>
+
+            <p class="letter-p p-highlight reveal-text">
+              Love you loads, Mumma. ❤️
+            </p>
+
+            <p class="letter-p reveal-text">
+              Stay happy, stay crazy, and please stay exactly the way you are.
+            </p>
+
+            <p class="letter-p p-celebrate reveal-text">
+              Happy Birthday! 🎀🎂
+            </p>
+
+            <p class="letter-p p-closing reveal-text">
+              Now go enjoy your cake before I finish it. 😌
+            </p>
+          </div>
+
+          <div class="letter-signature">
+            <div class="signature-line">With all my love & hugs,</div>
+            <div class="signature-name">Swasti 💖</div>
+          </div>
+
+          <div class="letter-quote-mark right-quote" aria-hidden="true">”</div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- DECORATIVE DIVIDER -->
+    <div class="decorative-divider" aria-hidden="true">
+      <div class="divider-line"></div>
+      <div class="divider-emojis">
+        <span>🌸</span>
+        <span>🎀</span>
+        <span>💖</span>
+        <span>✨</span>
+        <span>🎂</span>
+      </div>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- 3. PHOTO GALLERY SECTION -->
+    <section id="gallery-section" class="section gallery-section" aria-label="Moments With Mumma">
+      <div class="container gallery-container">
+        
+        <div class="section-header text-center reveal-item">
+          <div class="section-badge">📸 Cherished Memories</div>
+          <h2 class="section-title">Moments With Mumma <span class="title-icon">📸</span></h2>
+          <p class="section-subtitle">A few of my favorite memories with you</p>
+          <div class="gold-flourish" aria-hidden="true">~ ✦ 📸 ✦ ~</div>
+        </div>
+
+        <div class="gallery-grid">
+          
+          <!-- Photo Card 1 -->
+          <div class="photo-card reveal-item" data-delay="100" data-index="0">
+            <div class="photo-frame">
+              <div class="photo-tape" aria-hidden="true"></div>
+              <div class="photo-img-wrap">
+                <img src="assets/mom-photo-1.jpg" alt="Mumma's warm smile" class="gallery-img" loading="lazy" />
+                <div class="photo-overlay">
+                  <span class="zoom-btn-hint">🔍 Tap to enlarge</span>
+                </div>
+              </div>
+              <div class="photo-caption">
+                <span class="caption-num">01</span>
+                <p class="caption-text">"The smile that raised me 😊"</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo Card 2 -->
+          <div class="photo-card reveal-item" data-delay="200" data-index="1">
+            <div class="photo-frame">
+              <div class="photo-tape" aria-hidden="true"></div>
+              <div class="photo-img-wrap">
+                <img src="assets/mom-photo-2.jpg" alt="Special moment with Mumma" class="gallery-img" loading="lazy" />
+                <div class="photo-overlay">
+                  <span class="zoom-btn-hint">🔍 Tap to enlarge</span>
+                </div>
+              </div>
+              <div class="photo-caption">
+                <span class="caption-num">02</span>
+                <p class="caption-text">"My first best friend 💗"</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo Card 3 -->
+          <div class="photo-card reveal-item" data-delay="300" data-index="2">
+            <div class="photo-frame">
+              <div class="photo-tape" aria-hidden="true"></div>
+              <div class="photo-img-wrap">
+                <img src="assets/mom-photo-3.jpg" alt="Radiant smile of Mumma" class="gallery-img" loading="lazy" />
+                <div class="photo-overlay">
+                  <span class="zoom-btn-hint">🔍 Tap to enlarge</span>
+                </div>
+              </div>
+              <div class="photo-caption">
+                <span class="caption-num">03</span>
+                <p class="caption-text">"The reason for everything good in my life ✨"</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo Card 4 -->
+          <div class="photo-card reveal-item" data-delay="150" data-index="3">
+            <div class="photo-frame">
+              <div class="photo-tape" aria-hidden="true"></div>
+              <div class="photo-img-wrap">
+                <img src="assets/mom-photo-4.jpg" alt="Comfort and warmth with Mumma" class="gallery-img" loading="lazy" />
+                <div class="photo-overlay">
+                  <span class="zoom-btn-hint">🔍 Tap to enlarge</span>
+                </div>
+              </div>
+              <div class="photo-caption">
+                <span class="caption-num">04</span>
+                <p class="caption-text">"My home, wherever we are 🏡"</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo Card 5 -->
+          <div class="photo-card reveal-item" data-delay="250" data-index="4">
+            <div class="photo-frame">
+              <div class="photo-tape" aria-hidden="true"></div>
+              <div class="photo-img-wrap">
+                <img src="assets/mom-photo-5.jpg" alt="Strength and grace of Mumma" class="gallery-img" loading="lazy" />
+                <div class="photo-overlay">
+                  <span class="zoom-btn-hint">🔍 Tap to enlarge</span>
+                </div>
+              </div>
+              <div class="photo-caption">
+                <span class="caption-num">05</span>
+                <p class="caption-text">"The strongest person I know 💪"</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo Card 6 -->
+          <div class="photo-card reveal-item" data-delay="350" data-index="5">
+            <div class="photo-frame">
+              <div class="photo-tape" aria-hidden="true"></div>
+              <div class="photo-img-wrap">
+                <img src="assets/mom-photo-6.jpg" alt="Forever Mumma" class="gallery-img" loading="lazy" />
+                <div class="photo-overlay">
+                  <span class="zoom-btn-hint">🔍 Tap to enlarge</span>
+                </div>
+              </div>
+              <div class="photo-caption">
+                <span class="caption-num">06</span>
+                <p class="caption-text">"Forever my Mumma 🌸"</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- DECORATIVE DIVIDER -->
+    <div class="decorative-divider" aria-hidden="true">
+      <div class="divider-line"></div>
+      <div class="divider-emojis">
+        <span>🌸</span>
+        <span>🎀</span>
+        <span>💖</span>
+        <span>✨</span>
+        <span>🎂</span>
+      </div>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- 4. WISHES / BLESSINGS SECTION (BOUQUET) -->
+    <section id="wishes-section" class="section wishes-section" aria-label="A Bouquet of Wishes">
+      <div class="container wishes-container">
+        
+        <div class="section-header text-center reveal-item">
+          <div class="section-badge">💐 Bouquet of Love</div>
+          <h2 class="section-title">A Bouquet of Wishes For You <span class="title-icon">💐</span></h2>
+          <p class="section-subtitle">Tap each flower card to send Mumma a burst of love!</p>
+          <div class="gold-flourish" aria-hidden="true">~ ✦ 💐 ✦ ~</div>
+        </div>
+
+        <div class="wishes-grid">
+          
+          <div class="wish-card reveal-item" data-delay="100" tabindex="0" role="button" aria-label="Endless Happiness wish">
+            <div class="wish-card-inner">
+              <div class="wish-icon-box flower-rose">
+                <span class="wish-icon">🌸</span>
+              </div>
+              <h3 class="wish-title">Endless Happiness</h3>
+              <p class="wish-desc">May your days be packed with giggles, bright sunshine, and reasons to smile every hour.</p>
+              <div class="wish-tag">😊 Pure Joy</div>
+              <div class="wish-tap-hint">Tap to bloom ✨</div>
+            </div>
+          </div>
+
+          <div class="wish-card reveal-item" data-delay="200" tabindex="0" role="button" aria-label="Good Health and Energy wish">
+            <div class="wish-card-inner">
+              <div class="wish-icon-box flower-gold">
+                <span class="wish-icon">💪</span>
+              </div>
+              <h3 class="wish-title">Good Health & Energy</h3>
+              <p class="wish-desc">Wishing you vibrant vitality, peaceful sleep, and unmatched supermom stamina all year round.</p>
+              <div class="wish-tag">🌿 Supermom Strength</div>
+              <div class="wish-tap-hint">Tap to bloom ✨</div>
+            </div>
+          </div>
+
+          <div class="wish-card reveal-item" data-delay="300" tabindex="0" role="button" aria-label="Delicious Food Every Day wish">
+            <div class="wish-card-inner">
+              <div class="wish-icon-box flower-berry">
+                <span class="wish-icon">🍰</span>
+              </div>
+              <h3 class="wish-title">Delicious Food Every Day</h3>
+              <p class="wish-desc">May you be served endless royal feasts, mouthwatering treats, and someone else doing all the cooking!</p>
+              <div class="wish-tag">🧁 Royal Feasts</div>
+              <div class="wish-tap-hint">Tap to bloom ✨</div>
+            </div>
+          </div>
+
+          <div class="wish-card reveal-item" data-delay="150" tabindex="0" role="button" aria-label="Trips You Will Never Forget wish">
+            <div class="wish-card-inner">
+              <div class="wish-icon-box flower-sunset">
+                <span class="wish-icon">✈️</span>
+              </div>
+              <h3 class="wish-title">Trips You'll Never Forget</h3>
+              <p class="wish-desc">To dreamy getaways, scenic flights, golden beaches, and unforgettable travel adventures with loved ones.</p>
+              <div class="wish-tag">🌴 Wanderlust</div>
+              <div class="wish-tap-hint">Tap to bloom ✨</div>
+            </div>
+          </div>
+
+          <div class="wish-card reveal-item" data-delay="250" tabindex="0" role="button" aria-label="Zero Stress All Year wish">
+            <div class="wish-card-inner">
+              <div class="wish-icon-box flower-lavender">
+                <span class="wish-icon">🌿</span>
+              </div>
+              <h3 class="wish-title">Zero Stress, All Year</h3>
+              <p class="wish-desc">Zero worries, zero drama, zero chaos — just soothing chai, calm mornings, and quiet relaxation.</p>
+              <div class="wish-tag">🧘 Total Peace</div>
+              <div class="wish-tap-hint">Tap to bloom ✨</div>
+            </div>
+          </div>
+
+          <div class="wish-card reveal-item" data-delay="350" tabindex="0" role="button" aria-label="All the Shopping You Deserve wish">
+            <div class="wish-card-inner">
+              <div class="wish-icon-box flower-champagne">
+                <span class="wish-icon">🛍️</span>
+              </div>
+              <h3 class="wish-title">All the Shopping You Deserve</h3>
+              <p class="wish-desc">Unlimited wardrobe upgrades, luxury bags, and buying whatever you want without any second thoughts!</p>
+              <div class="wish-tag">💎 Treat Yourself</div>
+              <div class="wish-tap-hint">Tap to bloom ✨</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. INTERACTIVE CAKE MINI-GAME ("Make a Wish 🎂") -->
+    <section id="cake-section" class="section cake-section" aria-label="Make a Birthday Wish">
+      <div class="container cake-container text-center">
+        
+        <div class="section-header reveal-item">
+          <div class="section-badge">🎂 Make A Wish</div>
+          <h2 class="section-title">Time to Blow the Candles! <span class="title-icon">🕯️</span></h2>
+          <p class="section-subtitle">Make your sweetest birthday wish and tap the cake!</p>
+        </div>
+
+        <div class="cake-stage reveal-item" data-delay="200">
+          
+          <!-- Interactive Cake Graphic -->
+          <div class="interactive-cake" id="interactive-cake" role="button" tabindex="0" aria-label="Birthday Cake - Tap to blow out candles">
+            
+            <!-- Candles Container -->
+            <div class="candles-wrapper">
+              <div class="candle candle-1">
+                <div class="flame" id="flame-1"></div>
+                <div class="candle-stick"></div>
+              </div>
+              <div class="candle candle-2">
+                <div class="flame" id="flame-2"></div>
+                <div class="candle-stick"></div>
+              </div>
+              <div class="candle candle-3">
+                <div class="flame" id="flame-3"></div>
+                <div class="candle-stick"></div>
+              </div>
+            </div>
+
+            <!-- Cake Layers -->
+            <div class="cake-tier tier-top">
+              <div class="icing-drips"></div>
+              <div class="strawberries">🍓 🍓 🍓</div>
+            </div>
+            <div class="cake-tier tier-middle">
+              <div class="middle-frosting"></div>
+            </div>
+            <div class="cake-tier tier-bottom">
+              <div class="bottom-plate"></div>
+            </div>
+          </div>
+
+          <!-- Wish Action Button & Status -->
+          <div class="cake-controls">
+            <button id="blow-candles-btn" class="btn btn-secondary btn-blow">
+              <span class="btn-icon">💨</span>
+              <span class="btn-text">Blow Out the Candles</span>
+            </button>
+            <p id="cake-status-msg" class="cake-status-msg">
+              ✨ Tap the candles or the button above to blow them out! ✨
+            </p>
+          </div>
+
+          <!-- Secret Revealed Celebration Message -->
+          <div id="cake-reveal-card" class="cake-reveal-card hidden" aria-live="polite">
+            <div class="reveal-stars">🌟 ✨ 💖 ✨ 🌟</div>
+            <h3 class="reveal-heading">Yay! Happy Birthday Mumma! 🎉</h3>
+            <p class="reveal-body">
+              "May every single candle you blow bring you a million new blessings, vibrant health, and infinite happiness! We love you so much!" ❤️
+            </p>
+            <button id="relight-btn" class="btn-small-link">✨ Light the candles again</button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 6. FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container text-center">
+      
+      <div class="footer-hearts-banner" aria-hidden="true">
+        <span>🎈</span>
+        <span>🌸</span>
+        <span>💖</span>
+        <span>🎂</span>
+        <span>💖</span>
+        <span>🌸</span>
+        <span>🎈</span>
+      </div>
+
+      <div class="footer-main-text">
+        <p class="footer-loved-by">
+          💓 Loved by <strong class="swasti-name">Swasti</strong> since day one 💖
+        </p>
+        <p class="footer-sub">
+          Made with 💗 for the world's best Mumma
+        </p>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          Celebrating Mumma's Birthday • Today & Always ✨
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- 7. LIGHTBOX MODAL FOR PHOTO GALLERY -->
+  <div id="lightbox-modal" class="lightbox-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Photo Preview">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    
+    <div class="lightbox-content">
+      <button id="lightbox-close" class="lightbox-close-btn" aria-label="Close photo preview">✕</button>
+      
+      <div class="lightbox-image-container">
+        <img id="lightbox-img" src="" alt="Enlarged photo of Mumma" class="lightbox-img" />
+        <div id="lightbox-caption" class="lightbox-caption"></div>
+      </div>
+
+      <!-- Navigation Arrows -->
+      <button id="lightbox-prev" class="lightbox-nav-btn prev-btn" aria-label="Previous photo">‹</button>
+      <button id="lightbox-next" class="lightbox-nav-btn next-btn" aria-label="Next photo">›</button>
+      
+      <div id="lightbox-counter" class="lightbox-counter">1 / 6</div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
